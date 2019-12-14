@@ -1,5 +1,6 @@
 require("dotenv").config();
-const key = require("key.js");
+const key = require("./key");
+
 module.exports = {
   "development": {
     "username": "root",
