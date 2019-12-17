@@ -1,17 +1,17 @@
-require("dotenv").config();
-const key = require("./key");
+// require("dotenv").config();
+// const key = require("./key");
 
 module.exports = {
   "development": {
     "username": "root",
-    "password": key.SQLPASS,
+    "password": process.env.DB_PASS,
     "database": "devdb",
     "host": "localhost",
     "dialect": "mysql"
   },
   test: {
     "username": "root",
-    "password": key.SQLPASS,
+    "password": process.env.DB_PASS,
     "database": "devdb",
     "host": "localhost",
     "dialect": "mysql",
@@ -21,4 +21,4 @@ module.exports = {
     "use_env_variable": "stockpiledb",
     "dialect": "mysql"
   }
-}
+};
