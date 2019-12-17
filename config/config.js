@@ -18,7 +18,8 @@ module.exports = {
     "logging": false
   },
   production: {
-    "use_env_variable": "stockpiledb",
+    "use_env_variable": "JAWSDB_URL",
+
     "dialect": "mysql"
   }
 }
