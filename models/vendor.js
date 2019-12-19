@@ -69,7 +69,12 @@ module.exports = function(sequelize, DataTypes) {
       validate: {
         len: [1]
       }
-    }
+    },
+    vendorImage: {
+      type: DataTypes.TEXT,
+      default: "placeHolder.jpg"
+    },
+    freezeTableName: true
   });
   return Vendor;
 };
