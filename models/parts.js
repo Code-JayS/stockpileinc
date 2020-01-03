@@ -9,20 +9,20 @@ module.exports = function(sequelize, DataTypes) {
           len: [1]
         }
       },
-      mfgNum: {
-        type: DataTypes.TEXT,
-        allowNull: true,
-        validate: {
-          len: [1]
-        }
-      },
-      mfgName: {
-        type: DataTypes.TEXT,
-        allowNull: true,
-        validate: {
-          len: [1]
-        }
-      },
+      // mfgNum: {
+      //   type: DataTypes.TEXT,
+      //   allowNull: true,
+      //   validate: {
+      //     len: [1]
+      //   }
+      //},
+      // mfgName: {
+      //   type: DataTypes.TEXT,
+      //   allowNull: true,
+      //   validate: {
+      //     len: [1]
+      //   }
+      // },
       vendorNum: {
         type: DataTypes.TEXT,
         allowNull: true,
@@ -44,27 +44,27 @@ module.exports = function(sequelize, DataTypes) {
           len: [1]
         }
       },
-      stock: {
-        type: DataTypes.TEXT,
-        allowNull: true,
-        validate: {
-          len: [1]
-        }
-      },
-      max: {
-        type: DataTypes.TEXT,
-        allowNull: true,
-        validate: {
-          len: [1]
-        }
-      },
-      min: {
-        type: DataTypes.TEXT,
-        allowNull: false,
-        validate: {
-          len: [1]
-        }
-      },
+      // stock: {
+      //   type: DataTypes.TEXT,
+      //   allowNull: true,
+      //   validate: {
+      //     len: [1]
+      //   }
+      // },
+      // max: {
+      //   type: DataTypes.TEXT,
+      //   allowNull: true,
+      //   validate: {
+      //     len: [1]
+      //   }
+      // },
+      // min: {
+      //   type: DataTypes.TEXT,
+      //   allowNull: false,
+      //   validate: {
+      //     len: [1]
+      //   }
+      // },
       description: {
         type: DataTypes.TEXT,
         allowNull: true,
