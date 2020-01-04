@@ -2,6 +2,13 @@ module.exports = function(sequelize, DataTypes) {
   var User = sequelize.define(
     "User",
     {
+      userName: {
+        type: DataTypes.STRING,
+        allowNul: false,
+        validate: {
+          len: [1]
+        }
+      },
       userFirst: {
         type: DataTypes.STRING,
         allowNul: false,
