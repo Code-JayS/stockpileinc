@@ -23,7 +23,7 @@ module.exports = function(sequelize, DataTypes) {
       //     len: [1]
       //   }
       // },
-      vendorNum: {
+      vendorName: {
         type: DataTypes.TEXT,
         allowNull: true,
         validate: {
@@ -66,6 +66,13 @@ module.exports = function(sequelize, DataTypes) {
       //   }
       // },
       description: {
+        type: DataTypes.TEXT,
+        allowNull: true,
+        validate: {
+          len: [1]
+        }
+      },
+      picture: {
         type: DataTypes.TEXT,
         allowNull: true,
         validate: {
