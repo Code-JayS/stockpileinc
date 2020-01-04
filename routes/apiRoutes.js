@@ -28,10 +28,12 @@ module.exports = function(app) {
   app.post("/api/part", function(req, res) {
     db.Part.create({
       name: req.body.name,
-      vendorNum: req.body.vendorNum,
+      vendorName: req.body.vendorName,
       type: req.body.type,
       price: req.body.price,
-      description: req.body.description
+      stock: req.body.stock,
+      description: req.body.description,
+      picture: req.body.picture
     }).then(function(DBPart) {
       res.json(DBPart);
     });
@@ -48,7 +50,8 @@ module.exports = function(app) {
       userFirst: req.body.userFirst,
       userLast: req.body.userLast,
       userEmail: req.body.userEmail,
-      userRole: req.body.userRole
+      userRole: req.body.userRole,
+      userPass: req.body.userPass
     }).then(function(DBUser) {
       res.json(DBUser);
     });

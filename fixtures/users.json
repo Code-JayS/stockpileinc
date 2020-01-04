@@ -4,6 +4,7 @@
     "ignoreSet": true,
     "saveOptions": {
       "fields": [
+        "userName",
         "userFirst",
         "userLast",
         "userEmail",
@@ -12,6 +13,7 @@
       ]
     },
     "data": {
+      "userName" : "Bama",
       "userFirst": "Harris",
       "userLast": "Lane",
       "userEmail": "bama@stockpileinc.com",
@@ -32,6 +34,7 @@
       ]
     },
     "data": {
+      "userName": "smokinJay",
       "userFirst": "Jay",
       "userLast": "Smith",
       "userEmail": "smokinjay@stockpileinc.com",
@@ -52,6 +55,7 @@
       ]
     },
     "data": {
+      "userName": "Toe",
       "userFirst": "Trenton",
       "userLast": "Gharst",
       "userEmail": "deeznuts@stockpileinc.com",
@@ -72,6 +76,7 @@
       ]
     },
     "data": {
+      "userName": "Admin",
       "userFirst": "Admin",
       "userLast": "Admin",
       "userEmail": "admin@stockpileinc.com",
@@ -92,6 +97,7 @@
       ]
     },
     "data": {
+      "userName":"rjdj",
       "userFirst": "Robert",
       "userLast": "Davidson Jr.",
       "userEmail": "rjdj@stockpileinc.com",
