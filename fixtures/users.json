@@ -1,0 +1,102 @@
+[
+  {
+    "model": "User",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "userFirst",
+        "userLast",
+        "userEmail",
+        "userRole",
+        "userPass"
+      ]
+    },
+    "data": {
+      "userFirst": "Harris",
+      "userLast": "Lane",
+      "userEmail": "bama@stockpileinc.com",
+      "userRole": "Admin",
+      "userPass": "Password1"
+    }
+  },
+  {
+    "model": "User",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "userFirst",
+        "userLast",
+        "userEmail",
+        "userRole",
+        "userPass"
+      ]
+    },
+    "data": {
+      "userFirst": "Jay",
+      "userLast": "Smith",
+      "userEmail": "smokinjay@stockpileinc.com",
+      "userRole": "Admin",
+      "userPass": "Password1"
+    }
+  },
+  {
+    "model": "User",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "userFirst",
+        "userLast",
+        "userEmail",
+        "userRole",
+        "userPass"
+      ]
+    },
+    "data": {
+      "userFirst": "Trenton",
+      "userLast": "Gharst",
+      "userEmail": "deeznuts@stockpileinc.com",
+      "userRole": "Admin",
+      "userPass": "Password1"
+    }
+  },
+  {
+    "model": "User",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "userFirst",
+        "userLast",
+        "userEmail",
+        "userRole",
+        "userPass"
+      ]
+    },
+    "data": {
+      "userFirst": "Admin",
+      "userLast": "Admin",
+      "userEmail": "admin@stockpileinc.com",
+      "userRole": "Admin",
+      "userPass": "Password1"
+    }
+  },
+  {
+    "model": "User",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "userFirst",
+        "userLast",
+        "userEmail",
+        "userRole",
+        "userPass"
+      ]
+    },
+    "data": {
+      "userFirst": "Robert",
+      "userLast": "Davidson Jr.",
+      "userEmail": "rjdj@stockpileinc.com",
+      "userRole": "Admin",
+      "userPass": "Password1"
+    }
+  }
+]
