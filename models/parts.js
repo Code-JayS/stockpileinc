@@ -44,13 +44,13 @@ module.exports = function(sequelize, DataTypes) {
           len: [1]
         }
       },
-      // stock: {
-      //   type: DataTypes.TEXT,
-      //   allowNull: true,
-      //   validate: {
-      //     len: [1]
-      //   }
-      // },
+      stock: {
+        type: DataTypes.TEXT,
+        allowNull: true,
+        validate: {
+          len: [1]
+        }
+      },
       // max: {
       //   type: DataTypes.TEXT,
       //   allowNull: true,
