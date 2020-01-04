@@ -1,6 +1,6 @@
 module.exports = function(sequelize, DataTypes) {
-  var Part = sequelize.define(
-    "Part",
+  var Parts = sequelize.define(
+    "Parts",
     {
       name: {
         type: DataTypes.STRING,
@@ -77,5 +77,5 @@ module.exports = function(sequelize, DataTypes) {
       freezeTableName: true
     }
   );
-  return Part;
+  return Parts;
 };
