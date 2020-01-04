@@ -1,0 +1,122 @@
+[
+  {
+    "model": "Parts",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "name",
+        "vendorName",
+        "type",
+        "price",
+        "stock",
+        "description",
+        "picture"
+      ]
+    },
+    "data": {
+      "name": "BRNG-GD",
+      "vendorName": "ACME",
+      "type": "bearing",
+      "price": "57.00",
+      "stock": "21",
+      "description": "Iron Bearing steel ball bearings nice",
+      "picture": "bearing2"
+    }
+  },
+  {
+    "model": "Parts",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "name",
+        "vendorName",
+        "type",
+        "price",
+        "stock",
+        "description",
+        "picture"
+      ]
+    },
+    "data": {
+      "name": "BRNG-BD",
+      "vendorName": "ACME",
+      "type": "bearing",
+      "price": "37.00",
+      "stock": "16",
+      "description": "bearing cheap money saver",
+      "picture": "bearing2"
+    }
+  },
+  {
+    "model": "Parts",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "name",
+        "vendorName",
+        "type",
+        "price",
+        "stock",
+        "description",
+        "picture"
+      ]
+    },
+    "data": {
+      "name": "BRNG-BST",
+      "vendorName": "ACME",
+      "type": "bearing",
+      "price": "157.00",
+      "stock": "12",
+      "description": "best bearing lasts stainless steel",
+      "picture": "bearing4"
+    }
+  },
+  {
+    "model": "Parts",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "name",
+        "vendorName",
+        "type",
+        "price",
+        "stock",
+        "description",
+        "picture"
+      ]
+    },
+    "data": {
+      "name": "BRNG-OK",
+      "vendorName": "ACME",
+      "type": "bearing",
+      "price": "47.00",
+      "stock": "12",
+      "description": "solid bearing budget",
+      "picture": "bearing"
+    }
+  },
+  {
+    "model": "Parts",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "name",
+        "vendorName",
+        "type",
+        "price",
+        "stock",
+        "description",
+        "picture"
+      ]
+    },
+    "data": {
+      "name": "BRNG-SHT",
+      "vendorName": "ACME",
+      "type": "bearing",
+      "price": "17.00",
+      "stock": "14",
+      "description": "bearing cheap deal cheapest money saver plastic",
+      "picture": "bearing3"
+    }
+  }
+]
