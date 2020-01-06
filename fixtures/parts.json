@@ -1,0 +1,266 @@
+[
+  {
+    "model": "Parts",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "name",
+        "vendorName",
+        "type",
+        "price",
+        "stock",
+        "description",
+        "picture"
+      ]
+    },
+    "data": {
+      "name": "BRNG-GD",
+      "vendorName": "ACME",
+      "type": "bearing",
+      "price": "57.00",
+      "stock": "21",
+      "description": "Iron Bearing steel ball bearings nice",
+      "picture": "bearing2"
+    }
+  },
+  {
+    "model": "Parts",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "name",
+        "vendorName",
+        "type",
+        "price",
+        "stock",
+        "description",
+        "picture"
+      ]
+    },
+    "data": {
+      "name": "BRNG-BD",
+      "vendorName": "ACME",
+      "type": "bearing",
+      "price": "37.00",
+      "stock": "16",
+      "description": "bearing cheap money saver",
+      "picture": "bearing2"
+    }
+  },
+  {
+    "model": "Parts",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "name",
+        "vendorName",
+        "type",
+        "price",
+        "stock",
+        "description",
+        "picture"
+      ]
+    },
+    "data": {
+      "name": "BRNG-BST",
+      "vendorName": "ACME",
+      "type": "bearing",
+      "price": "157.00",
+      "stock": "12",
+      "description": "best bearing lasts stainless steel",
+      "picture": "bearing4"
+    }
+  },
+  {
+    "model": "Parts",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "name",
+        "vendorName",
+        "type",
+        "price",
+        "stock",
+        "description",
+        "picture"
+      ]
+    },
+    "data": {
+      "name": "BRNG-OK",
+      "vendorName": "ACME",
+      "type": "bearing",
+      "price": "47.00",
+      "stock": "12",
+      "description": "solid bearing budget",
+      "picture": "bearing"
+    }
+  },
+  {
+    "model": "Parts",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "name",
+        "vendorName",
+        "type",
+        "price",
+        "stock",
+        "description",
+        "picture"
+      ]
+    },
+    "data": {
+      "name": "BRNG-SHT",
+      "vendorName": "ACME",
+      "type": "bearing",
+      "price": "17.00",
+      "stock": "14",
+      "description": "bearing cheap deal cheapest money saver plastic",
+      "picture": "bearing3"
+    }
+  },
+  {
+    "model": "Parts",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "name",
+        "vendorName",
+        "type",
+        "price",
+        "stock",
+        "description",
+        "picture"
+      ]
+    },
+    "data": {
+      "name": "CHAIN40",
+      "vendorName": "ACME",
+      "type": "chain",
+      "price": "47.00",
+      "stock": "12",
+      "description": "solid chain budget",
+      "picture": "chain"
+    }
+  },
+  {
+    "model": "Parts",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "name",
+        "vendorName",
+        "type",
+        "price",
+        "stock",
+        "description",
+        "picture"
+      ]
+    },
+    "data": {
+      "name": "VLVPNU",
+      "vendorName": "ACME",
+      "type": "Valve",
+      "price": "47.00",
+      "stock": "12",
+      "description": "solid valve budget",
+      "picture": "valve"
+    }
+  },
+  {
+    "model": "Parts",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "name",
+        "vendorName",
+        "type",
+        "price",
+        "stock",
+        "description",
+        "picture"
+      ]
+    },
+    "data": {
+      "name": "WRENCH",
+      "vendorName": "ACME",
+      "type": "tool",
+      "price": "47.00",
+      "stock": "12",
+      "description": "adjustable wrench budget",
+      "picture": "wrench"
+    }
+  },
+  {
+    "model": "Parts",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "name",
+        "vendorName",
+        "type",
+        "price",
+        "stock",
+        "description",
+        "picture"
+      ]
+    },
+    "data": {
+      "name": "Motor1",
+      "vendorName": "ACME",
+      "type": "motor",
+      "price": "1493.00",
+      "stock": "2",
+      "description": "1hp 1500 rpm drive motor",
+      "picture": "motor"
+    }
+  },
+  {
+    "model": "Parts",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "name",
+        "vendorName",
+        "type",
+        "price",
+        "stock",
+        "description",
+        "picture"
+      ]
+    },
+    "data": {
+      "name": "Motor2",
+      "vendorName": "ACME",
+      "type": "motor",
+      "price": "1750.00",
+      "stock": "1",
+      "description": "2hp 3000 rpm drive motor",
+      "picture": "motor"
+    }
+  },
+  {
+    "model": "Parts",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "name",
+        "vendorName",
+        "type",
+        "price",
+        "stock",
+        "description",
+        "picture"
+      ]
+    },
+    "data": {
+      "name": "Motor3",
+      "vendorName": "ACME",
+      "type": "motor",
+      "price": "2100.00",
+      "stock": "1",
+      "description": "3hp 2000 rpm drive motor",
+      "picture": "motor"
+    }
+  }
+]

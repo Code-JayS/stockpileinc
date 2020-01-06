@@ -1,6 +1,6 @@
 module.exports = function(sequelize, DataTypes) {
-  var Part = sequelize.define(
-    "Part",
+  var Parts = sequelize.define(
+    "Parts",
     {
       name: {
         type: DataTypes.STRING,
@@ -9,21 +9,21 @@ module.exports = function(sequelize, DataTypes) {
           len: [1]
         }
       },
-      mfgNum: {
-        type: DataTypes.TEXT,
-        allowNull: true,
-        validate: {
-          len: [1]
-        }
-      },
-      mfgName: {
-        type: DataTypes.TEXT,
-        allowNull: true,
-        validate: {
-          len: [1]
-        }
-      },
-      vendorNum: {
+      // mfgNum: {
+      //   type: DataTypes.TEXT,
+      //   allowNull: true,
+      //   validate: {
+      //     len: [1]
+      //   }
+      //},
+      // mfgName: {
+      //   type: DataTypes.TEXT,
+      //   allowNull: true,
+      //   validate: {
+      //     len: [1]
+      //   }
+      // },
+      vendorName: {
         type: DataTypes.TEXT,
         allowNull: true,
         validate: {
@@ -51,21 +51,28 @@ module.exports = function(sequelize, DataTypes) {
           len: [1]
         }
       },
-      max: {
+      // max: {
+      //   type: DataTypes.TEXT,
+      //   allowNull: true,
+      //   validate: {
+      //     len: [1]
+      //   }
+      // },
+      // min: {
+      //   type: DataTypes.TEXT,
+      //   allowNull: false,
+      //   validate: {
+      //     len: [1]
+      //   }
+      // },
+      description: {
         type: DataTypes.TEXT,
         allowNull: true,
         validate: {
           len: [1]
         }
       },
-      min: {
-        type: DataTypes.TEXT,
-        allowNull: false,
-        validate: {
-          len: [1]
-        }
-      },
-      description: {
+      picture: {
         type: DataTypes.TEXT,
         allowNull: true,
         validate: {
@@ -77,5 +84,5 @@ module.exports = function(sequelize, DataTypes) {
       freezeTableName: true
     }
   );
-  return Part;
+  return Parts;
 };

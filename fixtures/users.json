@@ -1,0 +1,112 @@
+[
+  {
+    "model": "User",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "userName",
+        "userFirst",
+        "userLast",
+        "userEmail",
+        "userRole",
+        "userPass"
+      ]
+    },
+    "data": {
+      "userName" : "Bama",
+      "userFirst": "Harris",
+      "userLast": "Lane",
+      "userEmail": "bama@stockpileinc.com",
+      "userRole": "Admin",
+      "userPass": "Password1"
+    }
+  },
+  {
+    "model": "User",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "userName",
+        "userFirst",
+        "userLast",
+        "userEmail",
+        "userRole",
+        "userPass"
+      ]
+    },
+    "data": {
+      "userName": "smokinJay",
+      "userFirst": "Jay",
+      "userLast": "Smith",
+      "userEmail": "smokinjay@stockpileinc.com",
+      "userRole": "Admin",
+      "userPass": "Password1"
+    }
+  },
+  {
+    "model": "User",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "userName",
+        "userFirst",
+        "userLast",
+        "userEmail",
+        "userRole",
+        "userPass"
+      ]
+    },
+    "data": {
+      "userName": "Toe",
+      "userFirst": "Trenton",
+      "userLast": "Gharst",
+      "userEmail": "deeznuts@stockpileinc.com",
+      "userRole": "Admin",
+      "userPass": "Password1"
+    }
+  },
+  {
+    "model": "User",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "userName",
+        "userFirst",
+        "userLast",
+        "userEmail",
+        "userRole",
+        "userPass"
+      ]
+    },
+    "data": {
+      "userName": "Admin",
+      "userFirst": "Admin",
+      "userLast": "Admin",
+      "userEmail": "admin@stockpileinc.com",
+      "userRole": "Admin",
+      "userPass": "Password1"
+    }
+  },
+  {
+    "model": "User",
+    "ignoreSet": true,
+    "saveOptions": {
+      "fields": [
+        "userName",
+        "userFirst",
+        "userLast",
+        "userEmail",
+        "userRole",
+        "userPass"
+      ]
+    },
+    "data": {
+      "userName":"rjdj",
+      "userFirst": "Robert",
+      "userLast": "Davidson Jr.",
+      "userEmail": "rjdj@stockpileinc.com",
+      "userRole": "Admin",
+      "userPass": "Password1"
+    }
+  }
+]
