@@ -25,8 +25,8 @@ module.exports = function(app) {
     });
   });
 
-  app.post("/api/part", function(req, res) {
-    db.Part.create({
+  app.post("/api/newPart", function(req, res) {
+    db.Parts.create({
       name: req.body.name,
       vendorName: req.body.vendorName,
       type: req.body.type,
@@ -34,8 +34,8 @@ module.exports = function(app) {
       stock: req.body.stock,
       description: req.body.description,
       picture: req.body.picture
-    }).then(function(DBPart) {
-      res.json(DBPart);
+    }).then(function(DbPart) {
+      res.json(DbPart);
     });
   });
 

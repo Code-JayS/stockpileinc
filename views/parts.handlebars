@@ -6,38 +6,39 @@
           <div class="card card-signin flex-row my-5">
             <div class="card-body">
               <h5 class="card-title text-center text-lg">Parts Inventory</h5>
-              <form class="form-signin">
+              <form class="formNewPart">
                 <div class="form-label-group">
-                  <label for="inputUserame">Part Name</label>
-                  <input type="text" id="inputUserame" class="form-control" placeholder="" required autofocus>
+                  <label for="inputPart">Part Name</label>
+                  <input type="text" id="inputPart" class="form-control" placeholder="" required autofocus>
                 </div>
 
                 <div class="form-label-group">
-                  <label for="inputEmail">Vendor Name</label>
-                  <input type="text" id="inputEmail" class="form-control" placeholder="" required>
+                  <label for="inputVendor">Vendor Name</label>
+                  <input type="text" id="inputVendor" class="form-control" placeholder="" required>
                 </div>
 
                 <div class="form-label-group">
-                  <label for="inputPassword">Part Type</label>
-                  <input type="text" id="inputPassword" class="form-control" placeholder="" required>
+                  <label for="inputType">Part Type</label>
+                  <input type="text" id="inputType" class="form-control" placeholder="" required>
                 </div>
 
                 <div class="form-label-group">
-                  <label for="inputConfirmPassword">Pricing</label>
-                  <input type="text" id="inputConfirmPassword" class="form-control" placeholder=""
-                    required><br>
-                </div>
-                
-                <div class="form-label-group">
-                  <label for="inputConfirmPassword">Stock Quantity</label>
-                  <input type="text" id="inputConfirmPassword" class="form-control" placeholder=""
-                    required><br>
+                  <label for="inputPrice">Price</label>
+                  <input type="text" id="inputPrice" class="form-control" placeholder="" required><br>
                 </div>
 
                 <div class="form-label-group">
-                  <label for="inputConfirmPassword">Description</label>
-                  <input type="text" id="inputConfirmPassword" class="form-control" placeholder=""
-                    required><br>
+                  <label for="inputStock">Stock Quantity</label>
+                  <input type="text" id="inputStock" class="form-control" placeholder="" required><br>
+                </div>
+
+                <div class="form-label-group">
+                  <label for="inputDescription">Description</label>
+                  <input type="text" id="inputDescription" class="form-control" placeholder="" required><br>
+                </div>
+                <div class="form-label-group">
+                  <label for="inputPicture">Picture</label>
+                  <input type="text" id="inputPicture" class="form-control" placeholder="" required><br>
                 </div>
 
                 <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Submit</button><br>
@@ -51,4 +52,4 @@
     </div>
 </body>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="../public/js/index.js"></script>
+<script src="./js/parts.js"></script>
