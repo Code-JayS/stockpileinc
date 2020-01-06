@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node index.js"
+  },
   "name": "handlebars-boilerplate",
   "version": "1.0.0",
   "description": "Project 2 Starter",
