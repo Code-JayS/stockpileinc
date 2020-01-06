@@ -12,6 +12,16 @@ module.exports = function(app) {
       res.json(DBVendor);
     });
   });
+  app.get("/api/employee/find/:userName/:userPass", (req, res) => {
+    db.User.findOne({
+      where: {
+        userName: req.params.userName,
+        userPass: req.params.userPass
+      }
+    }).then(data => {
+      res.json(data);
+    });
+  });
 
   app.get("/api/user/", function(req, res) {
     db.User.findAll({}).then(function(DBUser) {
