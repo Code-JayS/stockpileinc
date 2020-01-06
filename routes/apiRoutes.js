@@ -45,13 +45,15 @@ module.exports = function(app) {
     });
   });
 
-  app.post("/api/user", function(req, res) {
+  app.post("/api/new", function(req, res) {
     db.User.create({
       userFirst: req.body.userFirst,
       userLast: req.body.userLast,
       userEmail: req.body.userEmail,
       userRole: req.body.userRole,
-      userPass: req.body.userPass
+      userPass: req.body.userPass,
+      createdAt: Sequelize.DATE,
+      updatedAt: Sequelize.DATE
     }).then(function(DBUser) {
       res.json(DBUser);
     });

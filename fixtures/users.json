@@ -26,6 +26,7 @@
     "ignoreSet": true,
     "saveOptions": {
       "fields": [
+        "userName",
         "userFirst",
         "userLast",
         "userEmail",
@@ -47,6 +48,7 @@
     "ignoreSet": true,
     "saveOptions": {
       "fields": [
+        "userName",
         "userFirst",
         "userLast",
         "userEmail",
@@ -68,6 +70,7 @@
     "ignoreSet": true,
     "saveOptions": {
       "fields": [
+        "userName",
         "userFirst",
         "userLast",
         "userEmail",
@@ -89,6 +92,7 @@
     "ignoreSet": true,
     "saveOptions": {
       "fields": [
+        "userName",
         "userFirst",
         "userLast",
         "userEmail",
