@@ -47,15 +47,17 @@ module.exports = function(app) {
 
   app.post("/api/new", function(req, res) {
     db.User.create({
+      userName: req.body.userName,
       userFirst: req.body.userFirst,
       userLast: req.body.userLast,
       userEmail: req.body.userEmail,
       userRole: req.body.userRole,
-      userPass: req.body.userPass,
-      createdAt: Sequelize.DATE,
-      updatedAt: Sequelize.DATE
-    }).then(function(DBUser) {
-      res.json(DBUser);
+      userPass: req.body.userPass
+      // createdAt: Sequelize.DATE,
+      // updatedAt: Sequelize.DATE
+    }).then(function(DbUser) {
+      res.json(DbUser);
+      console.log(DbUser);
     });
   });
 

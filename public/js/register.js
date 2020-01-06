@@ -5,19 +5,22 @@ $(document).ready(() => {
     event.preventDefault();
 
     var newUser = {
-      userNameInput: $("#inputUserName")
+      userName: $("#inputUserName")
         .val()
         .trim(),
-      firstName: $("#inputFirstName")
+      userFirst: $("#inputFirstName")
         .val()
         .trim(),
-      lastName: $("#inputLastName")
+      userLast: $("#inputLastName")
         .val()
         .trim(),
-      email: $("#inputEmail")
+      userEmail: $("#inputEmail")
         .val()
         .trim(),
-      password: $("#inputPassword")
+      userRole: $("#inputRole")
+        .val()
+        .trim(),
+      userPass: $("#inputPassword")
         .val()
         .trim()
     };
@@ -25,7 +28,6 @@ $(document).ready(() => {
 
     $.post("/api/new", newUser).then(function() {
       console.log("Success!!!");
-      res.end();
     });
   }
 });
