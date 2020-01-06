@@ -29,8 +29,8 @@ $(document).ready(() => {
     };
     console.log(newPart);
 
-    $.post("/api/newPart", newPart).then(function(res) {
-      res.end();
+    $.post("/api/newPart", newPart).then(function() {
+      console.log("success!");
     });
   }
 });
