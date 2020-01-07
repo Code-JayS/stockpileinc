@@ -6,7 +6,7 @@ module.exports = {
     "host": "localhost",
     "dialect": "mysql"
   },
-  test: {
+  "test": {
     "username": "root",
     "password": process.env.DB_PASS,
     "database": "devdb",
@@ -14,7 +14,7 @@ module.exports = {
     "dialect": "mysql",
     "logging": false
   },
-  production: {
+  "production": {
     "use_env_variable": "stockpiledb",
     "dialect": "mysql"
   }

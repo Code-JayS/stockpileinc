@@ -1,20 +1,30 @@
 $("#login").on("click", function(event) {
   event.preventDefault();
-  let userName = $("#userName")
+  let user = $("#userName")
     .val()
     .trim();
-  let userPass = $("#inputPassword")
+  let pass = $("#inputPassword")
     .val()
     .trim();
 
-  verify(userName, userPass);
+  verify(user, pass);
 });
 
-function verify(userName, userPass) {
-  const path = `/api/user/find/${userName}/${userPass}`;
-  $.get(path).then(result => {
-    if (result) {
-      console.log("success")
+const verify = (user, pass) =>
+  db.User.count({ 
+    where: { 
+      userName: user, 
+      userPass: pass} 
+  })
+  .then(count => {
+    return (count > 0) ? true : false;
+    
+  });
+
+
+
+  
+      console.log("success");
     } else {
       const userNamePassErr = (`<div class="modal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
