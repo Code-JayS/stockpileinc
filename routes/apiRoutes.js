@@ -1,36 +1,51 @@
 var db = require("../models");
 
 module.exports = function(app) {
-  app.get("/api/part/", function(req, res) {
-    db.Part.findAll({}).then(function(DBPart) {
+  app.get("/api/partType/", function(req, res) {
+    db.Part.aggregate({}).then(function(DBPart) {
       res.json(DBPart);
     });
   });
 
-  app.get("/api/vendor/", function(req, res) {
-    db.Vendor.findAll({}).then(function(DBVendor) {
-      res.json(DBVendor);
-    });
-  });
-  app.get("/api/employee/find/:userName/:userPass", (req, res) => {
-    db.User.findOne({
+  // app.get("/api/vendor/", function(req, res) {
+  //   db.Vendor.findAll({}).then(function(DBVendor) {
+  //     res.json(DBVendor);
+  //   });
+  // });
+
+  app.get("/api/users", function(req, res) {
+    const username = req.query.username;
+    const password = req.query.password;
+
+    db.User.findAll({
       where: {
-        userName: req.params.userName,
-        userPass: req.params.userPass
+        username,
+        password
       }
-    }).then(data => {
-      res.json(data);
+    }).then(function(dbUser) {
+      // res.json(dbUser);
+      if (dbUser !== null) {
+        res.redirect("/users/index");
+      } else {
+        // you'd maybe like to set response status to 404
+        console.log("Error: user not found");
+      }
     });
   });
 
-  app.get("/api/user/", function(req, res) {
-    db.User.findAll({}).then(function(DBUser) {
-      res.json(DBUser);
+  app.get("/api/parts", function(req, res) {
+    db.Parts.findAll({}).then(function(DBPart) {
+      res.json(DBPart);
+    });
+  });
+  app.get("/api/parts/:id", function(req, res) {
+    db.Parts.findOne({ where: { id: req.params.id } }).then(function(DBPart) {
+      res.json(DBPart);
     });
   });
 
-  app.get("/api/part/:id", function(req, res) {
-    db.Part.findOne({ where: { id: req.params.id } }).then(function(DBPart) {
+  app.get("/api/parts/:type", function(req, res) {
+    db.Parts.findAll({ where: { type: req.params.id } }).then(function(DBPart) {
       res.json(DBPart);
     });
   });
@@ -49,11 +64,11 @@ module.exports = function(app) {
     });
   });
 
-  app.post("/api/vendor", function(req, res) {
-    db.Vendor.create(req.body).then(function(DBVendor) {
-      res.json(DBVendor);
-    });
-  });
+  // app.post("/api/vendor", function(req, res) {
+  //   db.Vendor.create(req.body).then(function(DBVendor) {
+  //     res.json(DBVendor);
+  //   });
+  // });
 
   app.post("/api/new", function(req, res) {
     db.User.create({
@@ -71,29 +86,19 @@ module.exports = function(app) {
     });
   });
 
-  app.delete("/api/part/:id", function(req, res) {
+  app.delete("/api/parts/:id", function(req, res) {
     db.Part.destroy({ where: { id: req.params.id } }).then(function(DBPart) {
       res.json(DBPart);
     });
   });
 
-  app.put("/api/part", function(req, res) {
+  app.put("/api/parts", function(req, res) {
     db.Part.update(req.body, {
       where: {
         id: req.body.id
       }
     }).then(function(DBPart) {
       res.json(DBPart);
-    });
-  });
-
-  app.put("/api/vendor", function(req, res) {
-    db.Vendor.update(req.body, {
-      where: {
-        id: req.body.id
-      }
-    }).then(function(DBVendor) {
-      res.json(DBVendor);
     });
   });
 };
