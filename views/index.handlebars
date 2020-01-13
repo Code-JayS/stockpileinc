@@ -9,13 +9,13 @@
       <div class="col-sm-2">
         <ul class="list-group mt-2 mb-2" id = "typeList">
            
-{{#each newType }}
-  <li>{{type}}</li>
+{{#each parts }}
+  <li>{{parts.type}}</li>
 {{/each}}
 
         </ul>
       </div>
-      <div class="col-sm-10 mt-2 mb-2">
+      <div class="col-sm-10 mt-2 mb-2" id = "parts-container">
         <div class="card bg-light h-100">
         </div>
       </div>

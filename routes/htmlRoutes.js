@@ -10,7 +10,6 @@ module.exports = function(app) {
     });
   });
 
-  // Load example page and pass in an example by id
   app.get("/login", function(req, res) {
     db.User.findAll({}).then(function(dbExamples) {
       res.render("login", {
