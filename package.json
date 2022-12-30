@@ -31,7 +31,7 @@
     "grunt": "^1.0.4",
     "grunt-shell": "^3.0.1",
     "load-grunt-tasks": "^5.1.0",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "prettier": "^1.17.1"
   },
   "directories": {
